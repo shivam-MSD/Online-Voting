@@ -1,0 +1,91 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10 May, 2022, 9:44:53 AM
+    Author     : Admin
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #327bb873;
+}
+
+.form
+{
+    position: relative;
+    /*position: absolute;*/
+    padding: 30px;
+    top: 120px;
+    border: 3px solid grey;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px black;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.regformheading
+{
+    /*font-family: sans-serif;*/
+    font-size: 20em;
+    font-style: initial;
+    font-weight: bolder;
+    color: royalblue;
+}
+
+label
+{
+    color: royalblue;
+    font-weight: bold;
+    left: 20px;
+}
+// Extra small devices (portrait phones, less than 576px)
+/*@media (max-width: 575.98px) 
+{
+    input
+    {
+        width : 80%;
+
+    }
+    .regform
+    {
+        position: relative;
+        position: absolute;
+        padding: 30px;
+        top: 120px;
+        border: 3px solid grey;
+        border-radius: 15px;
+        box-shadow: 3px 3px 5px black;
+        background-color: red;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) 
+{
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) 
+{
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) 
+{
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) 
+{
+
+}*/

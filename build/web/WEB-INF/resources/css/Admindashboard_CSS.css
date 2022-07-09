@@ -1,0 +1,112 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 May, 2022, 12:34:02 AM
+    Author     : Admin
+*/
+
+/*#adminheader,h1
+{
+    font-weight: bolder;
+    color: #2275b3;
+}*/
+
+body
+{
+    /*position: fixed;*/
+}
+
+.mainrow
+{
+    position: relative;
+    top: 140px;
+    display: inline-flex;
+}
+
+.colm
+{
+   position: relative;
+   top: 70px;
+   margin: 10px;
+}
+
+.card
+{
+    position: relative;
+    /*width: 80%;*/
+}
+
+#col2
+{
+    position: relative;
+    width: auto;
+    /*width: 100%;*/
+}
+
+#col1,#col3
+{
+    position: relative;
+    /*width: 80%;*/
+}
+
+#adminaiddisplaydiv
+{
+
+    /*position: relative;*/
+    position: fixed;
+    z-index: 1030;
+    top: 90px;
+    width: 98%;
+    font-weight: bold;
+    background-color: #2a7bc0;
+    color: white;
+    box-shadow: 3px 3px 10px black;
+    border-radius: 10px;
+}
+
+#subadminadmintablediv,#subadmincandidatetablediv {
+      position: relative;
+      overflow-y: auto;
+      overflow: scroll;
+      height: 280px;
+      width: 100%;
+      /*margin-top: 20px;*/
+    }
+    
+#subadmincandidatetablediv 
+{
+    margin-top: 20px;
+}
+
+
+#adminheaderaiddisplay
+{
+
+    /*position: absolute;*/
+    position: relative;
+    position: fixed;
+    top: 90px;
+    z-index: 1030;
+    font-weight: bold;
+    background-color: #2a7bc0;
+    color: white;
+    box-shadow: 3px 3px 10px black;
+    border-radius: 10px;
+    width: 98%;
+}
+
+.adminlogout
+{
+    position: relative;
+    /*right: -200px;*/
+    /*top: -10px;*/
+    /*left: 220px;*/
+    width: 90px;
+    background-color: white;
+    padding: 3px;
+    margin: 3px;
+    border-radius: 3px;
+}

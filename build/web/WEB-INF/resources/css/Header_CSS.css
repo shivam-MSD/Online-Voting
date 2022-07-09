@@ -1,0 +1,39 @@
+
+.time
+{
+    
+    color: #2275b3;
+    font-family: sans-serif;
+    font-weight: bold;
+    align-content: flex-end;
+    width: max-content;
+}
+
+.headernavbar
+{
+    position: sticky;
+    /*position: fixed;*/
+    z-index: 1030;
+    top:0;
+    width: 100%;
+}
+
+#nav1,.d-flex
+{
+    background-color: white;
+    box-shadow: 3px 3px 10px black;
+    position: fixed;
+    width: 100%;
+    z-index: 1030;
+}
+img
+{
+    position: relative;
+    height: 100%;
+    width: 25%; 
+    left: 0px;
+}
+body
+{
+    background-color: #327bb873;
+}

@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21 May, 2022, 4:47:25 PM
+    Author     : Admin
+*/
+
+body
+{
+    background-color: #327bb873;
+}
+
+.form
+{
+    position: relative;
+    /*position: absolute;*/
+    padding: 30px;
+    top: 120px;
+    border: 3px solid grey;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px black;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.regformheading
+{
+    /*font-family: sans-serif;*/
+    font-size: 20em;
+    font-style: initial;
+    font-weight: bolder;
+    color: royalblue;
+}
+
+label
+{
+    color: royalblue;
+    font-weight: bold;
+    left: 20px;
+}
+
+#votervotingdashboardtablediv
+{
+      position: relative;
+      overflow-y: auto;
+      overflow: scroll;
+      height: 300px;
+      width: 100%;
+      top: -10px;
+    }
+    
+.table-responsive,#displayintable2
+{
+    background-color: white;
+    padding: 10px;
+    box-shadow: 3px 3px 10px black;
+    border-radius: 10px;
+}

@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19 May, 2022, 10:30:13 PM
+    Author     : Admin
+*/
+
+
+.card
+{
+    position: relative;
+    top: 95px;
+    box-shadow: 3px 3px 10px black;
+}
+
+
+#subadminheaderaiddisplay
+{
+
+    position: relative;
+    top: -5px;
+    font-weight: bold;
+    background-color: #2a7bc0;
+    color: white;
+    box-shadow: 3px 3px 10px black;
+    border-radius: 10px;
+    /*padding: 5px;*/
+    /*display: inline-block;*/
+}
+
+#subadmincandidatetablediv {
+      position: relative;
+      overflow-y: auto;
+      overflow: scroll;
+      height: 300px;
+      width: 100%;
+      top: -10px;
+    }
+  
+.electionprocess
+{
+    /*background-color: white;*/
+    background-color: #2a7bc0;
+    /*padding: 5px;*/
+    /*margin: 5px;*/
+    padding-bottom: 10px;
+    border-radius: 3px;
+    position: relative;
+/*    top: -29px;
+    left: 50px;*/
+    /*border: 10px solid red;*/
+    /*width: auto;*/
+}
+
+.adminlogout
+{
+    position: relative;
+    /*right: -200px;*/
+    /*top: -10px;*/
+    /*left: 220px;*/
+    width: 90px;
+    background-color: white;
+    padding: 3px;
+    margin: 3px;
+    border-radius: 3px;
+}
+
+#electionstatusininput
+{
+    width: 600px; 
+    height: 40px; 
+    /*background-color: white;*/ 
+    padding: 5px; 
+    color: black;
+    left: 20px;
+    padding-top: 20px;
+}
+
+#subadmincandidatetablediv 
+{
+    margin-top: 20px;
+}
+    
+#btn1,#btn2,btn btn-outline-danger
+{
+    font-weight: bold;
+}

@@ -1,0 +1,83 @@
+
+.time
+{
+    
+    color: #2275b3;
+    font-family: sans-serif;
+    font-weight: bold;
+    align-content: flex-end;
+    width: max-content;
+}
+
+.headernavbar
+{
+    position: sticky;
+    /*position: fixed;*/
+    z-index: 1030;
+    top:0;
+    width: 100%;
+}
+
+#nav1,.d-flex
+{
+    background-color: white;
+    box-shadow: 3px 3px 10px black;
+    position: fixed;
+    width: 100%;
+    z-index: 1030;
+}
+img
+{
+    position: relative;
+    height: 100%;
+    width: 25%; 
+    left: 0px;
+}
+/*adminheaderid*/
+#adminheaderid,#adminheaderiddisplay
+{
+    font-weight: bolder;
+    color: #2275b3;
+}
+body
+{
+    background-color: #327bb873;
+}
+
+.d-flex .p-2 #adminheaderid
+{
+    position: relative;
+    right: 80%;
+    font-weight: bolder;
+    color: #2275b3;
+    width: 120%;
+   
+}
+
+/* comman in all admin dashboard */
+
+.card
+{
+    box-shadow: 3px 3px 10px black;
+}
+.card-header
+{
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-body .card-title
+{
+    font-weight: normal;
+}
+
+.table-responsive,#displayintable2
+{
+    background-color: white;
+    padding: 10px;
+    box-shadow: 3px 3px 10px black;
+    border-radius: 10px;
+}
+
+
+   
